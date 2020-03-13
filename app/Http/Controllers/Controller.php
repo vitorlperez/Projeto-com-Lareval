@@ -17,7 +17,6 @@ class Controller extends BaseController
             'title' => $variavel
         ]);
     }
-
     public function login(){
         $name = ['animeNinja' => 'naruto', 'animePirata' => 'onePiece'];
         return $name['animeNinja'];
